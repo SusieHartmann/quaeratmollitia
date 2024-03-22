@@ -1,0 +1,40 @@
+{
+  "name": "quaeratmollitia",
+  "description": "Minifier of js, css, html and img",
+  "keywords": [
+    "at",
+    "nam",
+    "js",
+    "deleniti",
+    "img",
+    "debitis",
+    "ut"
+  ],
+  "version": "1.0.0",
+  "author": "AlanBogisich",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SusieHartmann/quaeratmollitia.git"
+  },
+  "bin": {
+    "minify": "./bin/minify"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "preferGlobal": false,
+  "dependencies": {
+    "uglify-js": "2.4.x",
+    "clean-css": "2.1.x",
+    "html-minifier": "0.5.x",
+    "css-b64-images": "0.2.x",
+    "util.io": "0.8.x",
+    "mkdirp": "~0.4.0"
+  },
+  "main": "./minify",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "homepage": "https://github.com/SusieHartmann/quaeratmollitia.git"
+}
